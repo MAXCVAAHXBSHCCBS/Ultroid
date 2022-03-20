@@ -88,7 +88,7 @@ class Player:
         try:
             await vcClient(
                 functions.phone.CreateGroupCallRequest(
-                    self._chat, title="🎧 Ultroid Music 🎶"
+                    self._chat, title="◄❥͜͡★⃟⃝💋🇹 𝗘𝗦𝗦𝗔 ◄❥͜─⃛͢𓆪"
                 )
             )
         except Exception as e:
@@ -393,7 +393,7 @@ async def dl_playlist(chat, from_user, link):
 
 
 async def file_download(event, reply, fast_download=True):
-    thumb = "https://telegra.ph/file/22bb2349da20c7524e4db.mp4"
+    thumb = "https://telegra.ph/file/647770c1fba578f134eee.mp4"
     title = reply.file.title or reply.file.name or str(time()) + ".mp4"
     file = reply.file.name or str(time()) + ".mp4"
     if fast_download:
